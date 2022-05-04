@@ -6,7 +6,7 @@ server:
 resilience4j:
   circuitbreaker:
     instances:
-      pasive-card-service:
+      active-card-service:
         failureRateThreshold: 50
         minimumNumberOfCalls: 10
         slidingWindowType: TIME_BASED
